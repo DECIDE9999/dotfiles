@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "sshAgent.storeKeyTitles": false,
+  "sshAgent.sshSessionDuration": "lock",
+  "sshAgent.sshAuthorizatonModel": "application",
+  "ui.routes.lastUsedRoute": "{\"type\":\"ItemList\",\"content\":{\"unlockedRoute\":{\"collectionUuid\":\"UTS5E7QZSVG4HHV2D5IXBCDVSQ\"},\"itemListType\":{\"type\":\"Vault\",\"content\":\"5\"},\"category\":null,\"sortBehavior\":null}}",
+  "security.authenticatedUnlock.enabled": true,
+  "authTags": {
+    "security.authenticatedUnlock.enabled": "2rw0mTpA1Vc9RRwW+9LsOM7sBRzsyli6KkDpTo5cJLA",
+    "ui.routes.lastUsedRoute": "sB+e/+W6ankG2dOjZqVqqh2U2TVOPSNLy93LfoA+1uk"
+  }
+}
