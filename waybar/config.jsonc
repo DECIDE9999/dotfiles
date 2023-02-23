@@ -8,15 +8,15 @@
     "height": 0,
     "modules-left": [
         "clock",
-        // "cpu",
-        // "memory",
-        "custom/weather",
-        "wlr/workspaces"
+     "cpu",
+     "memory"
+//        "custom/weather",
+//        "wlr/workspaces"
     ],
     "modules-center": ["hyprland/window"],
     "modules-right": [
         "tray",
-        "custom/updates",
+        "wlr/workspaces",
         // "custom/language",
         "pulseaudio",
         "pulseaudio#microphone"
@@ -42,18 +42,18 @@
             "default": ""
           }
     },
-    // "cpu": {
-    //     "interval": 10,
-    //     "format": " {}%",
-    //     "max-length": 10,
-    //     "on-click": ""
-    // },
-    // "memory": {
-    //     "interval": 30,
-    //     "format": " {}%",
-    //     "format-alt":" {used:0.1f}G",
-    //     "max-length": 10
-    // },
+     "cpu": {
+         "interval": 10,
+         "format": " {}%",
+         "max-length": 10,
+         "on-click": ""
+     },
+     "memory": {
+         "interval": 30,
+         "format": " {}%",
+         "format-alt":" {used:0.1f}G",
+         "max-length": 10
+     },
     "custom/updates": {
         "exec": "(paru -Qua) | wc -l",
         "interval": 7200,
